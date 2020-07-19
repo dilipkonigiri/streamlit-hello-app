@@ -15,9 +15,7 @@ Deployed at: https://streamlit-hello-app-sk.herokuapp.com/ <br>
 2. Navigate to that folder in the terminal
 3. Make a file named app.py
 4. Make a file named Procfile and paste this
-
-	web: sh setup.sh && streamlit run app.py
-
+	 web: sh setup.sh && streamlit run app.py
 5. Make a file named requirements.txt
 6. Make a file named setup.sh and paste this
 
@@ -33,8 +31,9 @@ enableCORS = false\n\
 " > ~/.streamlit/config.toml
 
 
-7. heroku login
-   heroku create
+7. Heroku cli login steps
+	 heroku login
+   heroku create <App Name>
    git add .
    git commit -m "Some message"
    git push heroku master
