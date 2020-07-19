@@ -32,8 +32,8 @@ enableCORS = false\n\
 
 
 7. Heroku cli login steps
-	 heroku login
-   heroku create <App Name>
-   git add .
-   git commit -m "Some message"
-   git push heroku master
+	 * heroku login
+   * heroku create <App Name>
+   * git add .
+   * git commit -m "Some message"
+   * git push heroku master
