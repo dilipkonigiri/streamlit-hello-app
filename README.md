@@ -1,4 +1,4 @@
-# Streamlit Web App for Data Visualization
+# Streamlit Web App
 ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![Streamlit](https://img.shields.io/badge/Streamlit-Library-orange.svg)<br>
 
 ## About Streamlit
